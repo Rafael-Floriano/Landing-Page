@@ -73,10 +73,11 @@ body {
 }
 
 .conteudo-principal-escrito-botão{
-    width: 185px;
-    height: 64px;
-    left: 369px;
-    top: 382px;
+    width: 180px;
+    height: 60px;
+    left: 360px;
+    top: 380px;
+    border: none;
     border-radius: 20px;
     background: #ECD6C4;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
@@ -86,4 +87,47 @@ body {
     font-family: 'Sarala', sans-serif;
 }
 
+.conteudo-principal-escrito-botão:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteudo-principal-imagem{
+    height: 594px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.conteudo-secundario-titulo{
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 80px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color:#FFF2E7;
+}
+
+.conteudo-secundario-paragrafo{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400px;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+
+.rodapé{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+
+}
+
+.rodapé-imagem{
+    height: 48px;
+    display: block;
+    margin:auto;
+}
 
